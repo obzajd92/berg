@@ -1,0 +1,2 @@
+# midway result
+By categorizing distances into discrete proximity bands (e.g., Close, Medium, Distant), we can match the computed distances against a baseline profile to evaluate structural shifts across sequential text windows.
