@@ -1,0 +1,2 @@
+Here is the specialized sliding-window function written in pure Matplotlib to analyze The Fire Sermon frame-by-frame.
+This engine tokenizes the isolated text, slides a fixed-size window forward using a configured stride, and tracks how the metrics (Word_Freq, words_Mean, and Token_Density) pivot dynamically. It uses full covariance Mahalanobis Distance to flag structural variance over the text's timeline
