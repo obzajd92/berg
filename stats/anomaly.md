@@ -1,0 +1,2 @@
+Here is the updated implementation incorporating an anomaly detection threshold along with direct validation metrics (Precision, Recall, and F1-Score) calculated from the updated configuration matrix.
+Any word whose structural profile falls outside standard limits is automatically flagged into an isolated "Anomaly / Outlier" row/column slot.
