@@ -1,0 +1,2 @@
+To align the rolling stylistic window profiles of The Fire Sermon back onto The Burial of the Dead across uneven sequence frames, you can integrate a Dynamic Time Warping (DTW) alignment matrix pipeline using pure Python and NumPy.
+DTW maps an optimal alignment path between the two temporal text blocks by minimizing a cumulative distance grid, accommodating variations in word counts and pacing across sections.
