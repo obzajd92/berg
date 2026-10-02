@@ -1,0 +1,2 @@
+To track and remove outdated experiences from the Prioritized Experience Replay (PER) buffer during long text streams, you can integrate a sliding-window constraint parameter directly into the binary SumTree and PrioritizedReplayBuffer modules inside your text_anomaly_pkg/memory.py layout.
+By tracking a localized timestamp or step_index metadata vector alongside every transition, the buffer can perform a fast linear sweep or systematic leaf eviction to prune stale transitions automatically once they exceed your maximum lookback window.
