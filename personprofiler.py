@@ -12,7 +12,7 @@ metrics_data = {
     'Person_S':      [122, 47, 16, 89, 34]   # Added Person S for multidimensional variance
 }
 
-df = pd.DataFrame(metrics_data, index=['Word_Freq', 'Gematria_Mean', 'Verse_Lag', 'Token_Density', 'Entropy'])
+df = pd.DataFrame(metrics_data, index=['Word_Freq', 'word_Mean', 'Verse_Lag', 'Token_Density', 'Entropy'])
 
 # 2. Compute the Partial Correlation Matrix using the Precision Matrix method
 corr_matrix = df.corr().values
