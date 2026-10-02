@@ -1,0 +1,4 @@
+# analysis 
+
+To trace structural divergence across a long text (such as a full T. S. Eliot collection from Project Gutenberg), we can wrap the Mahalanobis matrix computation inside a sliding-window function.
+This method segments the parsed text into sequential blocks of a fixed size (e.g., a window size of 100 words moving forward by a stride of 20 words). It extracts the isolated metrics (`Word_Freq`, `words_Mean`, and `Token_Density`) dynamically from each text block, standardizes them against a global variance or reference dataset, and tracks how the `distance` matrices shift across the timeline of the text.
